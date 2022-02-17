@@ -1,0 +1,95 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding-top: 150px;
+    z-index: -2;
+}
+.footer-info{
+    font-size: 18px;
+    padding: 30px 0 30px 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+.footer-info > h1{
+    padding-bottom: 15px;
+}
+.footer-contact{
+    padding: 100px 0 30px 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+.footer-sns{
+    display: flex;
+    padding: 100px 0 0 0;
+    width: 70%;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    align-items: center;
+}
+.sns-links{
+    padding-left: 10px;
+}
+.linkedin,
+.github,
+.whatsapp{
+    color: white;
+    /* background-color: rgb(194, 80, 80); */
+    font-size: 35px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid transparent;
+    margin: 0 20px;
+}
+@media (hover:hover) {
+.linkedin:hover,
+.github:hover,
+.whatsapp:hover{
+    border-color: thistle;
+    transition: all 0.3s ease;
+}
+}
+.design-by{
+    font-size: 18px;
+    padding-left: 50px;
+    color: thistle;
+}
+
+@media only screen and (max-width: 960px) {
+    .footer-info{
+        padding: 0;
+        font-size: 20px;
+    }
+    .footer-contact,
+    .footer-sns{
+        display: block;
+        font-size: 16px;
+        padding: 100px 0 0 0;
+    }
+    .design-by{
+        padding-left: 0;
+    }
+    .linkedin,
+    .github,
+    .whatsapp{
+        padding: 3px;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .linkedin,
+    .github,
+    .whatsapp{
+        padding: 3px;
+        margin: 0;
+    }
+    .sns-links{
+    padding-left: 10px;
+
+    }
+}

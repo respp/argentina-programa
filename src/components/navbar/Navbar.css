@@ -1,0 +1,33 @@
+.navbarr{
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 70px;
+    padding-left: 80px;
+    font-size: 20px;
+    overflow: hidden;
+    z-index: 1;
+    align-items: center;
+    backdrop-filter: blur(1px);
+}
+.scrolling{
+    background-color: rgba(0, 0, 0, 0.685);
+    transition: all 0.5 ease; /* all: todas las propiedades que puedan tener una animacion 0.5: duracion o delay ease: forma de transicion, es la q esta por defecto*/
+}
+.navbarLogo{
+    color: rgb(209, 178, 178, 0.66);
+    text-shadow: 2px 2px 3px rgba(235, 186, 112, 0.40);
+    height:80px;
+    line-height: 80px;
+    padding: 0 auto;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (hover:hover) {
+    .navbarLogo:hover{
+        color: rgb(209, 178, 178);
+        text-shadow: 2px 2px 3px rgb(235, 185, 112);
+    }
+}
