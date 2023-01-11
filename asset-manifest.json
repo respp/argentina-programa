@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/argentina-programa/static/css/main.332a2ee3.css",
+    "main.js": "/argentina-programa/static/js/main.5afe88b8.js",
+    "static/media/coverVideo.mp4": "/argentina-programa/static/media/coverVideo.061a5b8c03b6de23401f.mp4",
+    "static/media/img_slider2.jpg": "/argentina-programa/static/media/img_slider2.45c8623e52b99da0e082.jpg",
+    "static/media/img_slider3.jpg": "/argentina-programa/static/media/img_slider3.d194a14876acb77aec12.jpg",
+    "static/media/img_slider4.jpg": "/argentina-programa/static/media/img_slider4.cf6bd6657b8198454a4b.jpg",
+    "static/media/img_slider1.jpg": "/argentina-programa/static/media/img_slider1.c58c38ea1897da0bf812.jpg",
+    "static/media/logo_Argentina Programa 4.0.png": "/argentina-programa/static/media/logo_Argentina Programa 4.0.f92ddaa6addbc1c9a5c2.png",
+    "static/media/foto_curriculum4.jpg": "/argentina-programa/static/media/foto_curriculum4.dea54ef0e7b46d7fb0a5.jpg",
+    "index.html": "/argentina-programa/index.html",
+    "main.332a2ee3.css.map": "/argentina-programa/static/css/main.332a2ee3.css.map",
+    "main.5afe88b8.js.map": "/argentina-programa/static/js/main.5afe88b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.332a2ee3.css",
+    "static/js/main.5afe88b8.js"
+  ]
+}
